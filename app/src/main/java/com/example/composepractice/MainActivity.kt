@@ -45,22 +45,22 @@ fun SayHello(x: String) {
 
 @Composable
 private fun Previewfunction() {
-    //Image
-    //   Image(painter = painterResource(id = R.drawable.mydp) , contentDescription = "Dummy Image", contentScale = ContentScale.Fit)
-    //Text
-    //    SayHello(x = "Aman Srivastava")
-    //Button
-//    Button(onClick = { /*TODO*/ }) {
-//        Text(text = "Hello")
-//        Image(painter = painterResource(id = R.drawable.mydp), contentDescription = "Button Image")
-//    }
+//    Image
+       Image(painter = painterResource(id = R.drawable.mydp) , contentDescription = "Dummy Image", contentScale = ContentScale.Fit)
+//    Text
+        SayHello(x = "Aman Srivastava")
+//    Button
+       Button(onClick = { /*TODO*/ }) {
+        Text(text = "Hello")
+        Image(painter = painterResource(id = R.drawable.mydp), contentDescription = "Button Image")
+    }
 
-//    TextField(value = "Hell My friend",
-//        onValueChange = {
-//
-//        },
-//        label = { Text("Enter Message") },
-//        placeholder = {})
+       TextField(value = "Hell My friend",
+        onValueChange = {
+
+        },
+        label = { Text("Enter Message") },
+        placeholder = {})
 }
 
 @Composable
